@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'printenv'
-                sh 'npm install'
+                echo 'hello world'
             }
         }
     }
